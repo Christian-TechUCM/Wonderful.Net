@@ -56,36 +56,56 @@ export default class WonderfulNavBar extends React.Component<
                   if (isTargeted) {
                     const targeted: INavAudience = navItem as INavAudience;
                     return (
-                      <TargetAudience
-                        userAudiences={this.props.audiences}
-                        uniqueKey={`Nav_{index}`}
-                        groupIds={targeted.adGroups}
-                      >
-                        {targeted.navigation.map((nav: INavConfiguration) => {
-                          return (
-                            <ListNavBar
-                              displayName={nav.displayName}
-                              menuName={nav.menuName}
-                              businessUnit={nav.businessUnit}
-                              listName={this.props.listName}
-                              siteUrl={this.props.siteUrl}
-                              context={this.props.context}
-                            />
-                          );
-                        })}
-                      </TargetAudience>
+                      <React.Fragment key={`nav-targeted-${index}`}>
+                        <TargetAudience
+                          userAudiences={this.props.audiences}
+                          uniqueKey={`Nav_{index}`}
+                          groupIds={targeted.adGroups}
+                        >
+                          {targeted.navigation.map(
+                            (nav: INavConfiguration, targetedIndex: number) => {
+                              return (
+                                <ListNavBar
+                                  key={`targeted-nav-${index}-${targetedIndex}`}
+                                  displayName={nav.displayName}
+                                  menuName={nav.menuName}
+                                  businessUnit={nav.businessUnit}
+                                  listName={this.props.listName}
+                                  siteUrl={this.props.siteUrl}
+                                  context={this.props.context}
+                                />
+                              );
+                            }
+                          )}
+                        </TargetAudience>
+                      </React.Fragment>
                     );
                   } else {
                     const nav: INavConfiguration = navItem as INavConfiguration;
                     return (
-                      <ListNavBar
-                        displayName={nav.displayName}
-                        menuName={nav.menuName}
-                        businessUnit={nav.businessUnit}
-                        listName={this.props.listName}
-                        siteUrl={this.props.siteUrl}
-                        context={this.props.context}
-                      />
+                      <React.Fragment key={`nav-${index}`}>
+                        <ListNavBar
+                          key={`nav-${index}-list`}
+                          displayName={nav.displayName}
+                          menuName={nav.menuName}
+                          businessUnit={nav.businessUnit}
+                          listName={this.props.listName}
+                          siteUrl={this.props.siteUrl}
+                          context={this.props.context}
+                        />
+                        {nav.menuName.toUpperCase() === "RESOURCES" && (
+                          <div className={styles.globalNavCell}>
+                            <a
+                              href="https://csr.wonderful.com"
+                              target="_blank"
+                              rel="noopener"
+                              data-interception="off"
+                            >
+                              CSR WEBSITE
+                            </a>
+                          </div>
+                        )}
+                      </React.Fragment>
                     );
                   }
                 }
