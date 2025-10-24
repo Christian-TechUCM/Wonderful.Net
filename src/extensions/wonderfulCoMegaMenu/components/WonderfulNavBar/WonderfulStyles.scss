@@ -1,0 +1,167 @@
+@font-face {
+  font-family: 'AvenirLTStd-Book';
+  src:
+    url('https://publiccdn.sharepointonline.com/wonderfulco.sharepoint.com/_catalogs/masterpage/wonderful/webfonts/2F3113_0_0.woff2') format('woff2'),
+    url('https://publiccdn.sharepointonline.com/wonderfulco.sharepoint.com/_catalogs/masterpage/wonderful/webfonts/2F3113_0_0.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'AvenirLTStd-MediumOblique';
+  src:
+    url('https://publiccdn.sharepointonline.com/wonderfulco.sharepoint.com/_catalogs/masterpage/wonderful/webfonts/2F3113_1_0.woff2') format('woff2'),
+    url('https://publiccdn.sharepointonline.com/wonderfulco.sharepoint.com/_catalogs/masterpage/wonderful/webfonts/2F3113_1_0.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'AvenirLTStd-BookOblique';
+  src:
+    url('https://publiccdn.sharepointonline.com/wonderfulco.sharepoint.com/_catalogs/masterpage/wonderful/webfonts/2F3113_2_0.woff2') format('woff2'),
+    url('https://publiccdn.sharepointonline.com/wonderfulco.sharepoint.com/_catalogs/masterpage/wonderful/webfonts/2F3113_2_0.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'AvenirLTStd-Medium';
+  src:
+    url('https://publiccdn.sharepointonline.com/wonderfulco.sharepoint.com/_catalogs/masterpage/wonderful/webfonts/2F3113_3_0.woff2') format('woff2'),
+    url('https://publiccdn.sharepointonline.com/wonderfulco.sharepoint.com/_catalogs/masterpage/wonderful/webfonts/2F3113_3_0.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'AvenirLTStd-BlackOblique';
+  src:
+    url('https://publiccdn.sharepointonline.com/wonderfulco.sharepoint.com/_catalogs/masterpage/wonderful/webfonts/2F3113_4_0.woff2') format('woff2'),
+    url('https://publiccdn.sharepointonline.com/wonderfulco.sharepoint.com/_catalogs/masterpage/wonderful/webfonts/2F3113_4_0.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'AvenirLTStd-Black';
+  src:
+    url('https://publiccdn.sharepointonline.com/wonderfulco.sharepoint.com/_catalogs/masterpage/wonderful/webfonts/2F3113_5_0.woff2') format('woff2'),
+    url('https://publiccdn.sharepointonline.com/wonderfulco.sharepoint.com/_catalogs/masterpage/wonderful/webfonts/2F3113_5_0.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'AvenirLTStd-Light';
+  src:
+    url('https://publiccdn.sharepointonline.com/wonderfulco.sharepoint.com/_catalogs/masterpage/wonderful/webfonts/2F3113_6_0.woff2') format('woff2'),
+    url('https://publiccdn.sharepointonline.com/wonderfulco.sharepoint.com/_catalogs/masterpage/wonderful/webfonts/2F3113_6_0.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'AvenirLTStd-LightOblique';
+  src:
+    url('https://publiccdn.sharepointonline.com/wonderfulco.sharepoint.com/_catalogs/masterpage/wonderful/webfonts/2F3113_7_0.woff2') format('woff2'),
+    url('https://publiccdn.sharepointonline.com/wonderfulco.sharepoint.com/_catalogs/masterpage/wonderful/webfonts/2F3113_7_0.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'AvenirLTStd-Oblique';
+  src:
+    url('https://publiccdn.sharepointonline.com/wonderfulco.sharepoint.com/_catalogs/masterpage/wonderful/webfonts/2F3113_8_0.woff2') format('woff2'),
+    url('https://publiccdn.sharepointonline.com/wonderfulco.sharepoint.com/_catalogs/masterpage/wonderful/webfonts/2F3113_8_0.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'AvenirLTStd-Roman';
+  src:
+    url('https://publiccdn.sharepointonline.com/wonderfulco.sharepoint.com/_catalogs/masterpage/wonderful/webfonts/2F3113_9_0.woff2') format('woff2'),
+    url('https://publiccdn.sharepointonline.com/wonderfulco.sharepoint.com/_catalogs/masterpage/wonderful/webfonts/2F3113_9_0.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'AvenirLTStd-HeavyOblique';
+  src:
+    url('https://publiccdn.sharepointonline.com/wonderfulco.sharepoint.com/_catalogs/masterpage/wonderful/webfonts/2F3113_A_0.woff2') format('woff2'),
+    url('https://publiccdn.sharepointonline.com/wonderfulco.sharepoint.com/_catalogs/masterpage/wonderful/webfonts/2F3113_A_0.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'AvenirLTStd-Heavy';
+  src:
+    url('https://publiccdn.sharepointonline.com/wonderfulco.sharepoint.com/_catalogs/masterpage/wonderful/webfonts/2F3113_B_0.woff2') format('woff2'),
+    url('https://publiccdn.sharepointonline.com/wonderfulco.sharepoint.com/_catalogs/masterpage/wonderful/webfonts/2F3113_B_0.woff') format('woff');
+}
+
+/* WonderfulCo Styles */
+span[role='heading'] {
+  font-family: 'AvenirLTStd-Medium', "Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+}
+
+span[aria-level='2'] {
+  color: #007742;
+}
+
+/* change frequent sites txt color */
+[class^='compactTitle_'] {
+  color: green;
+  margin-left: -35px;
+}
+
+[class^='title_'] {
+  color: green;
+}
+
+/* press news css */
+[class^='text_siteLinkAlign_'] {
+  padding-top: 3px;
+  visibility: hidden;
+  margin-top: -25px;
+}
+
+[class^='text_description_'] {
+  -webkit-line-clamp: 2 !important;
+}
+
+[class^='text_dc'] {
+  height: 100px;
+}
+
+/* move freq links */
+[class^='dragWrapper_d'] {
+  margin-left: -40px;
+}
+
+[class^='SiteNormalCompactCard:hover .title-'] {
+  margin-left: -40px;
+  color: green;
+}
+
+[class^='details_d'] {
+  margin-left: -40px;
+}
+
+/* change nav font density */
+[class^='topnav_'] {
+  font-family: 'AvenirLTStd-Medium', "Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+}
+
+/* quick links */
+[class^='overlayTextWrapper-'] {
+  background-color: white;
+  color: #02793f;
+  font-family: 'AvenirLTStd-Medium', "Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  margin-left: -16px;
+  width: 300px;
+}
+
+/* press release copy */
+[class^='newsItem__medium_'] {
+  margin-bottom: -2px;
+  margin-top: 6px;
+}
+
+[class^='text_de'] {
+  margin-top: 1px !important;
+}
+
+/* Carousel text & bkg color */
+[class^='newsItem__carousel_'] {
+  margin-top: 25px;
+}
+
+h2 > span.fontColorThemePrimary {
+  color: #007742;
+  font-family: 'AvenirLTStd-Medium', "Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  font-size: 24px;
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "wonderful-co-mega-menu-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/wonderfulCoMegaMenu/WonderfulCoMegaMenuApplicationCustomizer.js",
+          "manifest": "./src/extensions/wonderfulCoMegaMenu/WonderfulCoMegaMenuApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WonderfulCoMegaMenuApplicationCustomizerStrings": "lib/extensions/wonderfulCoMegaMenu/loc/{locale}.js"
+  }
+}

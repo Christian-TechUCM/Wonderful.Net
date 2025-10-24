@@ -1,0 +1,63 @@
+@import '~office-ui-fabric-react/dist/sass/_References.scss';
+
+.row {
+  @include ms-Grid-row;
+}
+
+.copyrightcontainer {
+  @include ms-Grid-row;
+
+  width: 876px;
+  border-top: none;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.fullCell {
+  @include ms-Grid-col;
+  @include ms-sm12;
+  @include ms-md12;
+  @include ms-lg12;
+}
+
+#footerContainer {
+  width: 876px;
+  border-top: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footerLogoContainer {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.footerlogo {
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.brandlogo {
+  min-height: 40px;
+  margin-top: 40px;
+  display: table-cell;
+  padding-right: 10px;
+  vertical-align: -webkit-baseline-middle;
+
+  &:last-child {
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  #copyright {
+    min-height: 0;
+  }
+}

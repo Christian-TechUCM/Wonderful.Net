@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="WonderfulCoMegaMenu"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="077ae99e-7600-48ee-aa0b-0a1ba6e6b1aa"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

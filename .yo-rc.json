@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "wonderful-menu",
+    "libraryId": "aef81dca-3229-479c-b304-a041f330f8df",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "wonderful-menu",
+    "solutionShortDescription": "wonderful-menu description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

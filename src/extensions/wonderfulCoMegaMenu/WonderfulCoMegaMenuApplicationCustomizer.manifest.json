@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-extension-manifest.schema.json",
+
+  "id": "077ae99e-7600-48ee-aa0b-0a1ba6e6b1aa",
+  "alias": "WonderfulCoMegaMenuApplicationCustomizer",
+  "componentType": "Extension",
+  "extensionType": "ApplicationCustomizer",
+
+  
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false
+}

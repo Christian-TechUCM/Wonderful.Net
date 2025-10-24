@@ -1,0 +1,22 @@
+Load debug scripts:
+https://wonderfulco.sharepoint.com/?debug=true&noredir=true&debugManifestsFile=https://localhost:4321/temp/manifests.js
+
+
+gulp build
+gulp serve
+
+Updates
+Travel
+Information: https://wonderfulco.sharepoint.com/sites/Travel
+Concur: https://launcher.myapps.microsoft.com/api/signin/435b89aa-9532-4c22-9195-49876218038e?tenantId=57fe7bb5-e382-4498-88fe-5c50d256f735
+
+    {
+      name: "Travel",
+      url: "https://wonderfulco.sharepoint.com/sites/Travel",
+      dataInterception: "off",
+      elements: [{ url: "https://wonderfulco.sharepoint.com/sites/Travel", name: "Information", dataInterception: "off" }, { url: "https://launcher.myapps.microsoft.com/api/signin/435b89aa-9532-4c22-9195-49876218038e?tenantId=57fe7bb5-e382-4498-88fe-5c50d256f735", name: "Concur", dataInterception: "off" }]
+    },
+
+Smart Recruiters: https://www.smartrecruiters.com/app/employee-portal/
+new node called "Careers"
+

@@ -1,0 +1,147 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://usherspace.sharepoint.com/_layouts/15/workbench.aspx",
+      "customActions": {
+        "077ae99e-7600-48ee-aa0b-0a1ba6e6b1aa": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "skipUrls": ["https://wonderfulco.sharepoint.com/"],
+            "siteUrl": "https://wonderfulco.sharepoint.com/",
+            "listName": "Site Menu",
+            "navigation": [{
+              "menuName": "GROUPS",
+              "businessUnit": "TWC"
+            },
+            {
+              "menuName": "RESOURCES",
+              "businessUnit": "TWC"
+            },
+            {
+              "adGroups": [
+                "feff4a39-dae6-46c4-8dc4-198a564f3283"
+              ],
+              "navigation": [{
+                  "businessUnit": "Citrus",
+                  "menuName": "GROUPS",
+                  "displayName": "CITRUS GROUPS"
+                },
+                {
+                  "businessUnit": "Citrus",
+                  "menuName": "QUICK LINKS",
+                  "displayName": "CITRUS QUICK LINKS"
+                }
+              ]
+            },
+            {
+              "adGroups": [
+                "feff4a39-dae6-46c4-8dc4-198a564f3384"
+              ],
+              "navigation": [{
+                  "businessUnit": "FIJI",
+                  "menuName": "GROUPS",
+                  "displayName": "FIJI GROUPS"
+                },
+                {
+                  "businessUnit": "FIJI",
+                  "menuName": "QUICK LINKS",
+                  "displayName": "FIJI QUICK LINKS"
+                }
+              ]
+            },
+            {
+              "adGroups": [
+                "feff4a39-dae6-46c4-8dc4-198a564f4484"
+              ],
+              "navigation": [{
+                  "businessUnit": "POM",
+                  "menuName": "GROUPS",
+                  "displayName": "POM GROUPS"
+                },
+                {
+                  "businessUnit": "POM",
+                  "menuName": "QUICK LINKS",
+                  "displayName": "POM QUICK LINKS"
+                }
+              ]
+            }
+          ]
+          }
+        }
+      }
+    },
+    "wonderfulCoMegaMenu": {
+      "pageUrl": "https://usherspace.sharepoint.com/sites/PowerAppandSPFX/SitePages/test.aspx",
+      "customActions": {
+        "077ae99e-7600-48ee-aa0b-0a1ba6e6b1aa": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "skipUrls": ["https://sppnp.sharepoint.com/"],
+            "siteUrl": "https://usherspace.sharepoint.com/",
+            "listName": "Site Menu",
+            "navigation": [{
+              "menuName": "GROUPS",
+              "businessUnit": "TWC"
+            },
+            {
+              "menuName": "RESOURCES",
+              "businessUnit": "TWC"
+            },
+            {
+              "adGroups": [
+                "af0bf95b-e375-4ca5-b6db-2c5bca7817ad"
+              ],
+              "navigation": [{
+                  "businessUnit": "Citrus",
+                  "menuName": "GROUPS",
+                  "displayName": "CITRUS GROUPS"
+                },
+                {
+                  "businessUnit": "Citrus",
+                  "menuName": "QUICK LINKS",
+                  "displayName": "CITRUS QUICK LINKS"
+                }
+              ]
+            },
+            {
+              "adGroups": [
+                "7bffc56a-f61e-420f-9095-801e42200ea2"
+              ],
+              "navigation": [{
+                  "businessUnit": "FIJI",
+                  "menuName": "GROUPS",
+                  "displayName": "FIJI GROUPS"
+                },
+                {
+                  "businessUnit": "FIJI",
+                  "menuName": "QUICK LINKS",
+                  "displayName": "FIJI QUICK LINKS"
+                }
+              ]
+            },
+            {
+              "adGroups": [
+                "d6dde9b6-bc8f-4898-a22d-dfc18f833c73"
+              ],
+              "navigation": [{
+                  "businessUnit": "POM",
+                  "menuName": "GROUPS",
+                  "displayName": "POM GROUPS"
+                },
+                {
+                  "businessUnit": "POM",
+                  "menuName": "QUICK LINKS",
+                  "displayName": "POM QUICK LINKS"
+                }
+              ]
+            }
+          ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,208 @@
+$wonderful-grey: #f3f3f3;
+$wonderful-green: #007742;
+$wonderful-hover: rgb(96, 168, 68);
+
+.topnav {
+  .header {
+   /* height: 132.411px;
+    min-height: 132.411px;
+    background-color: #fff;
+    max-width: 1648px;
+    margin-left: auto;
+    margin-right: auto;*/
+    height: 65.411px;
+    min-height: 84.411px;
+    background-color: #fff;
+    max-width: 1648px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .logo {
+    /*  margin-top: 78px;
+      margin-left: 30px;
+      margin-bottom: 45px;
+      margin-right: 34px; */
+      margin-top: 30px;
+      margin-left: 30px;
+      margin-bottom: 45px;
+      margin-right: 34px;
+    }
+
+    .globalarrowup,
+    .grouparrowup,
+    .resourcesarrowup {
+      display: none;
+      transition: all 0.55s ease-in-out;
+      line-height: 0;
+      position: absolute;
+      z-index: 3;
+      width: 0;
+      height: 0;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      border-bottom: 25px solid $wonderful-grey;
+      top: 25px;
+    }
+
+    .globalarrowup::after {
+      content: "";
+      display: block;
+      width: 300px;
+      height: 50px;
+      left: -50px;
+      background: transparent;
+      top: 0;
+      position: absolute;
+      z-index: 1;
+    }
+
+    .globalgroupdd,
+    .navgroupsdd,
+    .navresourcesdd {
+      display: none;
+      transition: all 0.55s ease-in-out;
+      line-height: 0;
+      background-color: $wonderful-grey;
+      //width: 100%;
+      position: absolute;
+      z-index: 3;
+      left: 0;
+      height: 450px;
+      top: 50px;
+      padding-top: 0;
+      margin-top: 0;
+      padding-bottom: 0;
+      margin-bottom: 0;
+      width: 350%;
+    }
+
+    .globalNav {
+      top: -71px;
+      left: 265px;
+      right: -100px;
+      position: relative;
+      display: table;
+      min-width: 400px;
+
+      .globalNavRow {
+        display: table-row;
+
+        .globalNavCell {
+          display: table-cell;
+          color: #454444;
+          font-family: AvenirLTStd-Book, sans-serif;
+          font-size: 15px;
+          line-height: 1.666em;
+          letter-spacing: 0.025em;
+
+          &:hover {
+            color: $wonderful-hover;
+
+            .globalgroupdd,
+            .navgroupsdd,
+            .navresourcesdd {
+              display: block;
+              background-color: $wonderful-grey;
+              line-height: 1.5;
+              z-index: 999;
+            }
+
+            .globalarrowup,
+            .grouparrowup,
+            .resourcesarrowup {
+              display: block;
+              line-height: 1.5;
+            }
+          }
+
+          a,
+          a:link,
+          a:visited {
+            text-decoration: none;
+            color: #454444;
+            padding-left: 25px;
+            padding-right: 25px;
+
+            &:hover {
+              color: $wonderful-hover;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* stylelint-disable  no-descending-specificity */
+  .grouparrowup {
+    left: 32px;
+  }
+
+  .resourcesarrowup {
+    left: 162px;
+  }
+
+  .buarrowup {
+    left: 293px;
+  }
+
+  .globalarrowup {
+    transform: translateX(50%);
+  }
+
+  .headerdivider {
+    position: relative;
+    top: -20px;
+    display: "inline-block";
+    height: "76px";
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: $wonderful-green;
+    color: #fff;
+    // height: 40px;
+    font-family: "Avenir Medium", Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10pt;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    // max-height: 40px;
+    min-height: 30px;
+    overflow-y: hidden;
+    // margin-bottom: -10px;
+  }
+
+  li {
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    // height: 20px;
+    a,
+    a:visited,
+    a:link {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+
+.resourcelinkcontainer,
+.grouplinkcontainer {
+  margin-right: 10%;
+  width: 100%;
+  margin-top: 1%;
+}
+
+.resourcelinkcontainer a,
+.grouplinkcontainer a {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 5%;
+  width: 18%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

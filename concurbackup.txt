@@ -1,0 +1,11 @@
+    {
+      name: "Concur",
+      url:
+        "https://myapps.microsoft.com/signin/Concur/803ed027d1d240ebbd89cd8f7f4fc401",
+    },
+
+new:
+https://launcher.myapps.microsoft.com/api/signin/435b89aa-9532-4c22-9195-49876218038e?tenantId=57fe7bb5-e382-4498-88fe-5c50d256f735
+
+showing up now:
+https://launcher.myapps.microsoft.com/api/signin/435b89aa-9532-4c22-9195-49876218038e?tenantId=57fe7bb5-e382-4498-88fe-5c50d256f735

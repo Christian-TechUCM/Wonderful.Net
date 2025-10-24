@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "wonderful-menu-client-side-solution",
+    "id": "aef81dca-3229-479c-b304-a041f330f8df",
+    "version": "10.0.0.4",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [{
+      "resource": "Microsoft Graph",
+      "scope": "User.ReadBasic.All"
+    }],
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "wonderful-menu description"
+      },
+      "longDescription": {
+        "default": "wonderful-menu description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [{
+      "title": "Application Extension - Deployment of custom action",
+      "description": "Deploys a custom action with ClientSideComponentId association",
+      "id": "7507d99f-519c-4e34-a0ac-62b01041fc99",
+      "version": "6.0.0.1",
+      "assets": {
+        "elementManifests": [
+          "elements.xml",
+          "ClientSideInstance.xml"
+        ]
+      }
+    }]
+  },
+  "paths": {
+    "zippedPackage": "solution/wonderful-menu.sppkg"
+  }
+}
